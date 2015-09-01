@@ -1,0 +1,37 @@
+.header {
+	position: relative;
+	z-index: 1;
+
+	padding-top: 32px;
+	&__wrapper {
+		position: relative;
+
+		display: flex;
+
+		align-items: flex-start;
+		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__phone {
+		position: relative;
+
+		margin-top: 4px;
+		padding-right: 13px;
+
+		color: #fff;
+
+		font-family: "PTSans-Bold";
+		font-size: em(20px);
+		&:after {
+			top: 8px;
+			right: 0;
+
+			@include bg($phone-pic);
+			@include content;
+		}
+	}
+}
+
+.logo {
+	@include bg($logo);
+}

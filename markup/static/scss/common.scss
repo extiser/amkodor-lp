@@ -1,0 +1,71 @@
+// Common styles of the project
+
+html,
+body {
+	overflow-x: hidden;
+
+	height: 100%;
+
+	font-family: "PTSans-Regular";
+}
+
+.wrapper {
+	width: 1160px;
+	margin: auto;
+}
+
+.title {
+	position: relative;
+
+	display: inline;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	font-family: "PTSans-Bold";
+	font-size: em(30px);
+	&:before,
+	&:after {
+		top: 20px;
+
+		display: block;
+
+		width: 85px;
+		height: 1px;
+
+		@include content;
+	}
+	&:before {
+		left: -97px;
+	}
+	&:after {
+		right: -97px;
+	}
+	&--white {
+		color: #fff;
+		&:before,
+		&:after {
+			background: #fff;
+		}
+	}
+	&--black {
+		color: #000;
+		&:before,
+		&:after {
+			background: #000;
+		}
+	}
+}
+
+.title-inside {
+	width: 100%;
+
+	text-transform: uppercase;
+
+	color: #01407f;
+	border-bottom: 1px solid #01407f;
+
+	font-family: "PTSans-Bold";
+	font-size: em(30px);
+	font-weight: normal;
+}

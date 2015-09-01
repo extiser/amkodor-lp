@@ -1,0 +1,24 @@
+.lineup {
+	padding-top: 24px;
+	&__wrapper {
+		display: flex;
+
+		align-items: center;
+		@extend .wrapper;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__title {
+		width: 100%;
+		margin-bottom: 25px;
+
+		text-align: center;
+		span {
+			@extend .title--black;
+			@extend .title;
+		}
+	}
+	&__item {
+		margin: 20px;
+	}
+}

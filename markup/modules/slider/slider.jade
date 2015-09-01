@@ -1,0 +1,6 @@
+mixin slider(data)
+	- if (data == undefined) data = '';
+	section.slider#slider(class="#{data}")
+		- for (var i = 1; i < 5; i++) {
+		img(src="%=staticPrefix=%images/content/slide-#{i}.jpg" alt="").slider__item
+		- }

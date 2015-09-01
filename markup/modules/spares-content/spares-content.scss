@@ -1,0 +1,41 @@
+.spares-content {
+	margin-top: 25px;
+	padding-bottom: 180px;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__title {
+		@extend .title-inside;
+	}
+	h2 {
+		text-transform: uppercase;
+
+		color: #000;
+
+		font-family: "PTSans-Bold";
+		font-size: em(16px);
+		font-weight: normal;
+	}
+	p {
+		color: #000;
+
+		font-size: em(16px);
+	}
+	img {
+		display: block;
+
+		margin: 15px auto;
+	}
+	ul {
+		@include nl;
+		li {
+			color: #818181;
+
+			font-family: "PTSans-Italic";
+			font-size: em(14px);
+			&:before {
+				content: " - ";
+			}
+		}
+	}
+}

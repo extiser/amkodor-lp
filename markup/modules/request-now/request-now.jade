@@ -1,0 +1,14 @@
+mixin request-now()
+	section.request-now
+		.request-now__wrapper
+			.request-now__title ОСТАВИТЬ ЗАЯВКУ ПРЯМО СЕЙЧАС!
+
+			form(method="" action="").request-form.request-form--now
+				.request-form__row
+					label.request-form__label Ваше имя:
+					input(type="text" value="").request-form__input 
+				.request-form__row
+					label.request-form__label Ваш телефон:
+					input(type="text" value="").request-form__input 
+
+				input(type="submit" value="Сделать заказ").request-form__submit.request-form__submit--now

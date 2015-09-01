@@ -1,0 +1,10 @@
+mixin lineup()
+	section.lineup
+		.lineup__wrapper
+			.lineup__title
+				span МОДЕЛЬНЫЙ РЯД
+
+			- for(var i = 1; i < 10; i++) {
+			a(href="#" title="").lineup__item
+				img(src="%=staticPrefix=%images/content/model-#{i}.png" alt="")
+			- }

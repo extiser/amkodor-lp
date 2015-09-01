@@ -1,0 +1,91 @@
+.how {
+	box-sizing: border-box;
+	height: 312px;
+	padding-top: 30px;
+
+	background: url(%=staticPrefixForCss=%general/how-bg.jpg) no-repeat center center;
+	&__wrapper {
+		display: flex;
+
+		align-items: flex-start;
+		@extend .wrapper;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__title {
+		width: 100%;
+		margin-bottom: 55px;
+
+		text-align: center;
+		span {
+			@extend .title--white;
+			@extend .title;
+		}
+	}
+	&__item {
+		position: relative;
+
+		width: 150px;
+
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #fff;
+
+		font-family: "PTSans-Bold";
+		font-size: em(17px);
+		&:before {
+			position: relative;
+
+			display: block;
+
+			margin: 0 auto 10px;
+
+			content: "";
+		}
+		&:after {
+			top: 35px;
+			right: -20px;
+
+			display: block;
+
+			@include content;
+			@include bg($how-arrow);
+		}
+		&:last-child {
+			&:after {
+				display: none;
+			}
+		}
+		&--consult {
+			&:before {
+				@include bg($how-consult);
+			}
+		}
+		&--contract {
+			&:before {
+				@include bg($how-contract);
+			}
+		}
+		&--delivery {
+			&:before {
+				@include bg($how-delivery);
+			}
+		}
+		&--customer {
+			&:before {
+				@include bg($how-customer);
+			}
+		}
+		&--service {
+			&:before {
+				@include bg($how-service);
+			}
+		}
+		&--spares {
+			&:before {
+				@include bg($how-spares);
+			}
+		}
+	}
+}

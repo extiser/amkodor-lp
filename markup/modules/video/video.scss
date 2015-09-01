@@ -1,0 +1,22 @@
+.video {
+	margin-top: -40px;
+	padding-bottom: 40px;
+	&__wrapper {
+		display: flex;
+
+		align-items: center;
+		@extend .wrapper;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__title {
+		width: 100%;
+		margin-bottom: 35px;
+
+		text-align: center;
+		span {
+			@extend .title--black;
+			@extend .title;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.catalog-content {
+	padding-bottom: 180px;
+	&__wrapper {
+		display: flex;
+
+		align-items: flex-end;
+		@extend .wrapper;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__title {
+		@extend .title-inside;
+	}
+}
+
+.catalog-content-item {
+	position: relative;
+
+	width: 30%;
+
+	text-align: center;
+	&__img {
+		display: block;
+
+		margin: 0 auto 15px;
+	}
+	&__link {
+		text-transform: uppercase;
+
+		color: $blue;
+
+		font-family: "PTSans-Bold";
+		&:hover {
+			text-decoration: none;
+
+			color: #9e9e9e;
+		}
+	}
+}
+
+.catalog-content-item-drop {
+	display: none;
+}

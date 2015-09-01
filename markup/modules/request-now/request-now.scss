@@ -1,0 +1,22 @@
+.request-now {
+	position: relative;
+	top: -20px;
+
+	box-sizing: border-box;
+	height: 387px;
+	padding-top: 80px;
+
+	background: url(%=staticPrefixForCss=%general/request-now-bg.png) no-repeat center center;
+	&__wrapper {
+		text-align: center;
+
+		@extend .wrapper;
+	}
+	&__title {
+		display: inline;
+
+		font-size: em(34px) !important;
+
+		@extend .request__title;
+	}
+}

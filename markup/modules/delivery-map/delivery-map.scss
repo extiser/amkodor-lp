@@ -1,0 +1,19 @@
+.delivery-map {
+	min-height: 530px;
+	margin-bottom: -38px;
+	padding-top: 35px;
+
+	background: url(%=staticPrefixForCss=%general/delivery-map.png) no-repeat center bottom;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__title {
+		width: 100%;
+
+		text-align: center;
+		span {
+			@extend .title;
+			@extend .title--black;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+mixin request()
+	section.request
+		.request__title Оставить Заявку!
+		.request__description на подбор Европейской спецтехники прямо сейчас и мы свяжемся с Вами в течении 30 минут 
+
+		form(method="" action="").request-form
+			label.request-form__label Ваше имя:
+			input(type="text" value="").request-form__input 
+
+			label.request-form__label Ваш телефон:
+			input(type="text" value="").request-form__input 
+
+			input(type="submit" value="Сделать заказ").request-form__submit

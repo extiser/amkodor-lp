@@ -1,0 +1,30 @@
+.about {
+	box-sizing: border-box;
+	min-height: 370px;
+	padding-top: 25px;
+
+	background: url(%=staticPrefixForCss=%general/about-bg.jpg) no-repeat center center;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__title {
+		width: 100%;
+
+		text-align: center;
+		span {
+			@extend .title--white;
+			@extend .title;
+		}
+	}
+	&__content {
+		padding-top: 12px;
+
+		text-align: center;
+
+		color: #fff;
+
+		font-family: "PTSans-Italic";
+		font-size: em(18px);
+		line-height: em(18px, 18px);
+	}
+}

@@ -1,0 +1,26 @@
+.slider {
+	top: -88px;
+	right: 0;
+	left: 0;
+
+	width: 1920px;
+	margin: auto;
+	margin-bottom: -88px;
+	@media screen and (max-width: 1440px) {
+		left: -25%;
+	}
+	&.inside {
+		&:after {
+			bottom: -15px;
+
+			display: block;
+
+			width: 100%;
+			height: 117px;
+
+			background: url(%=staticPrefixForCss=%general/slider-inside.png) no-repeat center center;
+
+			@include content;
+		}
+	}
+}

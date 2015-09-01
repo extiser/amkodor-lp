@@ -1,0 +1,27 @@
+.footer {
+	padding: 10px 0;
+
+	background: url(%=staticPrefixForCss=%general/footer-bg.png);
+	&__wrapper {
+		display: flex;
+
+		align-items: center;
+		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__copyright {
+		color: #fff;
+
+		font-family: "PTSans-Italic";
+		font-size: em(16px);
+	}
+	&__phone {
+		color: #fff;
+
+		font-size: 20px;
+		line-height: 1;
+		span {
+			display: block;
+		}
+	}
+}

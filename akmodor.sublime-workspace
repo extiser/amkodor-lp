@@ -4,8 +4,76 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"cata",
+				"catalog-content-item"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"cli",
+				"clients-list__item"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"ho",
+				"how__item"
+			],
+			[
+				"se",
+				"services"
+			],
+			[
+				"magrin",
+				"margin-left"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"ser",
+				"services__item"
+			],
+			[
+				"re",
+				"request-form"
+			],
+			[
+				"ad",
+				"advantages__item"
+			],
+			[
+				"ou",
+				"outline-color"
+			],
+			[
 				"back",
-				"background-position"
+				"background"
 			],
 			[
 				"sl",
@@ -20,32 +88,8 @@
 				"border-bottom"
 			],
 			[
-				"pad",
-				"padding-top"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"po",
 				"product-list-content-list"
-			],
-			[
-				"se",
-				"service-content"
-			],
-			[
-				"marign",
-				"margin-top"
-			],
-			[
-				"te",
-				"text-decoration"
 			],
 			[
 				"ca",
@@ -70,10 +114,6 @@
 			[
 				"marig",
 				"margin-left"
-			],
-			[
-				"cata",
-				"catalog-content-product"
 			],
 			[
 				"catal",
@@ -122,10 +162,6 @@
 			[
 				"border-c",
 				"border-collapse"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"margn",
@@ -224,10 +260,6 @@
 				"background"
 			],
 			[
-				"ou",
-				"outline"
-			],
-			[
 				"c",
 				"carousel__item"
 			],
@@ -278,10 +310,6 @@
 			[
 				"vo",
 				"vk-comments__user"
-			],
-			[
-				"co",
-				"color"
 			],
 			[
 				"font-",
@@ -360,10 +388,6 @@
 				"block"
 			],
 			[
-				"cli",
-				"clients"
-			],
-			[
 				"abo",
 				"about"
 			],
@@ -374,10 +398,6 @@
 			[
 				"css",
 				"css	.css() - single"
-			],
-			[
-				"ad",
-				"address-list-item"
 			],
 			[
 				"backgr",
@@ -398,10 +418,6 @@
 			[
 				"mrg",
 				"margin-right"
-			],
-			[
-				"re",
-				"repeat-y"
 			],
 			[
 				"border-",
@@ -488,10 +504,6 @@
 				"no-repeat"
 			],
 			[
-				"ser",
-				"service"
-			],
-			[
 				"text-",
 				"text-align"
 			],
@@ -502,18 +514,6 @@
 			[
 				"service-car__guests__",
 				"service-car__guests__list__item"
-			],
-			[
-				"sev",
-				"service-wedding-cake"
-			],
-			[
-				"border-bot",
-				"border-bottom-color"
-			],
-			[
-				"sc",
-				"scrollTop	.scrollTop()"
 			]
 		]
 	},
@@ -593,27 +593,54 @@
 	[
 		"/Users/extiser/git/amkodor-lp/markup",
 		"/Users/extiser/git/amkodor-lp/markup/modules",
-		"/Users/extiser/git/amkodor-lp/markup/modules/footer",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider",
-		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu",
 		"/Users/extiser/git/amkodor-lp/markup/pages",
 		"/Users/extiser/git/amkodor-lp/markup/static",
 		"/Users/extiser/git/amkodor-lp/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.js",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/amkodor-lp/markup/static/scss/common.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content/catalog-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content/catalog-content.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
+		"/Users/extiser/git/amkodor-lp/markup/static/scss/common.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.js",
+		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.scss",
+		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.jade",
+		"/Users/extiser/git/amkodor-lp/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.js",
+		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/amkodor/markup/pages/guarantee.jade",
 		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
@@ -699,38 +726,7 @@
 		"/Users/extiser/git/vrachmedic/markup/pages/index.jade",
 		"/Users/extiser/git/vrachmedic/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/vrachmedic/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/article-row/article-row.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/article-block/article-block.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/last-articles/last-articles.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/popular-articles/popular-articles.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/popular-articles/popular-articles.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/article-block/article-block.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/menu/menu.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/menu/menu.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/search/search.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/search/search.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/header/header.jade",
-		"/Users/extiser/git/vrachmedic/markup/modules/header/header.scss",
-		"/Users/extiser/Work/!Work Files/swipebox-master/index.html",
-		"/Users/extiser/git/gsb/markup/modules/object-content/object-content.scss",
-		"/Users/extiser/git/gsb/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/gsb/markup/modules/object-content/object-content.jade",
-		"/Users/extiser/git/gsb/markup/modules/object-content/swipebox.js",
-		"/Users/extiser/git/gsb/markup/modules/object-content/swipebox.scss",
-		"/Users/extiser/Work/!Work Files/swipebox-master/src/js/jquery.swipebox.min.js",
-		"/Users/extiser/git/gsb/markup/modules/object-small/object-small.jade",
-		"/Users/extiser/git/gsb/markup/modules/object-small/object-small.scss",
-		"/Users/extiser/git/gsb/markup/modules/engineering-services-content/engineering-services-content.scss",
-		"/Users/extiser/git/gsb/markup/modules/about-content/about-content.scss",
-		"/Users/extiser/git/gsb/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/gsb/markup/static/scss/common.scss",
-		"/Users/extiser/git/gsb/markup/modules/objects-content/objects-content.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.scss",
-		"/Users/extiser/git/gsb/markup/modules/header/header.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.js",
-		"/Users/extiser/git/gsb/markup/pages/index.jade",
-		"/Users/extiser/git/gsb/markup/pages/objects.jade"
+		"/Users/extiser/git/vrachmedic/markup/modules/article-row/article-row.jade"
 	],
 	"find":
 	{
@@ -749,6 +745,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"li -",
+			"em",
+			".jpg",
 			"http://extiser.github.io/amkodor/builds//",
 			".structure-content-item",
 			".product-list-content-sidebar-category",
@@ -873,10 +872,7 @@
 			"Классы",
 			"as_store_optoins_subpage_product_classes",
 			"Велоаксессуары",
-			"Велосипеды",
-			"Велоаксессуары",
-			"menu",
-			"bcn"
+			"Велосипеды"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -884,6 +880,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"li",
+			".png",
 			"http://extiser.github.io/amkodor/builds/",
 			"a(href=\"#\" title=\"\").structure-content-item",
 			".product-list-content-sidebar-menu",
@@ -1009,9 +1007,7 @@
 			" {",
 			"/font/",
 			"/images/",
-			"images",
-			"font",
-			"url(PIE.htc);"
+			"images"
 		],
 		"reverse": false,
 		"show_context": false,

@@ -9,8 +9,8 @@
 
 		text-align: center;
 		span {
-			@extend .title;
 			@extend .title--black;
+			@extend .title;
 		}
 	}
 }
@@ -19,6 +19,7 @@
 	width: 90%;
 	margin: auto;
 	&__row {
+		background: none !important;
 		&:first-child {
 			border-bottom: 1px solid #ccc;
 		}
@@ -35,9 +36,10 @@
 
 		text-align: center;
 
-		border-right: 1px solid #ccc;
+		border: 0 !important;
+		border-right: 1px solid #ccc !important;
 		&:last-child {
-			border-right: 1px solid transparent;
+			border-right: 1px solid transparent !important;
 		}
 		&:hover {
 			img {

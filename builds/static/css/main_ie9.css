@@ -331,18 +331,18 @@ html, body {
   height: 100%;
   font-family: "PTSans-Regular"; }
 
-.wrapper, .advantages__wrapper, .about__wrapper, .cart-content__wrapper, .catalog-content__wrapper, .clients__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .product-list-content__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
+.wrapper, .about__wrapper, .advantages__wrapper, .cart-content__wrapper, .catalog-content__wrapper, .clients__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .product-list-content__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
   width: 1160px;
   margin: auto; }
 
-.title, .advantages__title span, .about__title span, .clients__title span, .delivery-map__title span, .how__title span, .lineup__title span, .video__title span {
+.title, .about__title span, .advantages__title span, .clients__title span, .delivery-map__title span, .how__title span, .lineup__title span, .video__title span {
   position: relative;
   display: inline;
   text-align: center;
   text-transform: uppercase;
   font-family: "PTSans-Bold";
   font-size: 1.875em; }
-  .title:before, .advantages__title span:before, .about__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before, .title:after, .advantages__title span:after, .about__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
+  .title:before, .about__title span:before, .advantages__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before, .title:after, .about__title span:after, .advantages__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
     top: 20px;
     display: block;
     width: 85px;
@@ -350,13 +350,13 @@ html, body {
     position: absolute;
     display: block;
     content: ""; }
-  .title:before, .advantages__title span:before, .about__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before {
+  .title:before, .about__title span:before, .advantages__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before {
     left: -97px; }
-  .title:after, .advantages__title span:after, .about__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
+  .title:after, .about__title span:after, .advantages__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
     right: -97px; }
-  .title--white, .advantages__title span, .about__title span, .how__title span {
+  .title--white, .about__title span, .advantages__title span, .how__title span {
     color: #fff; }
-    .title--white:before, .advantages__title span:before, .about__title span:before, .how__title span:before, .title--white:after, .advantages__title span:after, .about__title span:after, .how__title span:after {
+    .title--white:before, .about__title span:before, .advantages__title span:before, .how__title span:before, .title--white:after, .about__title span:after, .advantages__title span:after, .how__title span:after {
       background: #fff; }
   .title--black, .clients__title span, .delivery-map__title span, .lineup__title span, .video__title span {
     color: #000; }
@@ -445,6 +445,22 @@ table {
       table tbody tr td a:hover {
         background: #dedede; }
 
+.about {
+  box-sizing: border-box;
+  min-height: 370px;
+  padding-top: 25px;
+  background: url(../images/general/about-bg.jpg) no-repeat center center; }
+  .about__title {
+    width: 100%;
+    text-align: center; }
+  .about__content {
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    font-family: "PTSans-Italic";
+    font-size: 1.125em;
+    line-height: 1em; }
+
 .advantages {
   position: relative;
   top: -90px;
@@ -496,22 +512,6 @@ table {
       position: absolute;
       display: block;
       content: ""; }
-
-.about {
-  box-sizing: border-box;
-  min-height: 370px;
-  padding-top: 25px;
-  background: url(../images/general/about-bg.jpg) no-repeat center center; }
-  .about__title {
-    width: 100%;
-    text-align: center; }
-  .about__content {
-    padding-top: 12px;
-    text-align: center;
-    color: #fff;
-    font-family: "PTSans-Italic";
-    font-size: 1.125em;
-    line-height: 1em; }
 
 .cart-content p {
   text-align: justify;
@@ -626,19 +626,22 @@ table {
 .clients-list {
   width: 90%;
   margin: auto; }
-  .clients-list__row:first-child {
-    border-bottom: 1px solid #ccc; }
-  .clients-list__row:last-child {
-    border-top: 1px solid #ccc; }
+  .clients-list__row {
+    background: none !important; }
+    .clients-list__row:first-child {
+      border-bottom: 1px solid #ccc; }
+    .clients-list__row:last-child {
+      border-top: 1px solid #ccc; }
   .clients-list__item {
     display: table-cell;
     box-sizing: border-box;
     width: 25%;
     height: 130px;
     text-align: center;
-    border-right: 1px solid #ccc; }
+    border: 0 !important;
+    border-right: 1px solid #ccc !important; }
     .clients-list__item:last-child {
-      border-right: 1px solid transparent; }
+      border-right: 1px solid transparent !important; }
     .clients-list__item:hover img {
       -webkit-filter: grayscale(0);
               filter: grayscale(0); }
@@ -674,6 +677,7 @@ table {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .footer__copyright {
+    text-align: center;
     color: #fff;
     font-family: "PTSans-Italic";
     font-size: 1em; }

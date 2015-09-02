@@ -1,29 +1,17 @@
 .modal {
 	position: fixed;
 	z-index: 99;
-	top: 0;
+	top: 10% !important;
 	right: 0;
 	left: 0;
 
 	display: none;
-	visibility: hidden;
 
-	margin: auto;
 	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 0;
-
-	opacity: 0;
-	background: #fff;
-
-	@include transition;
 	&.active {
-		top: 10% !important;
-
 		display: block;
-		visibility: visible;
-
-		opacity: 1;
 	}
 	&__close {
 		position: absolute;

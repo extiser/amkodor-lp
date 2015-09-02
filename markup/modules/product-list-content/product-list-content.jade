@@ -1,0 +1,54 @@
+mixin product-list-content()
+	section.product-list-content
+		.product-list-content__wrapper
+			h1 Комунально-дорожная техника
+			aside.product-list-content-sidebar
+				ul.product-list-content-sidebar-menu
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Сельскохозяйственная техника
+					li.product-list-content-sidebar-menu__category.active
+						a(href="#" title="") Комунально-дорожная техника
+						ul.product-list-content-sidebar-menu--inside
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Погрузчики
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Машины фрезерные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Очистители каналов
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Снежная
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Катки
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Складская техника
+						ul.product-list-content-sidebar-menu--inside
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Автопогрузчики вилочные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Электропогрузчики вилочные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Электротележки платформенные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Ручные гидравлические тележки
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Лесная техника
+						ul.product-list-content-sidebar-menu--inside
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Лесопогрузчики фронтальные универсальные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Тягачи трелевочные
+							li.product-list-content-sidebar-menu__sub-category 
+								a(href="#" title="") Харвестеры
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Зерносушители
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Запчасти
+					li.product-list-content-sidebar-menu__category
+						a(href="#" title="") Навесное оборудование
+			.product-list-content-list
+				- for(var i = 0; i < 10; i++) {
+				.product-list-content-list-item
+					img(src="%=staticPrefix=%images/content/320ce_prew.png" alt="").product-list-content-list-item__img
+					a(href="#" title="").product-list-content-list-item__title АМКОДОР 320СЕ
+					p.product-list-content-list-item__text Погрузчик универсальный АМКОДОР 320СЕ – многоцелевая  машина компактного класса и предназначена для использования в строительстве, в коммунальном и сельском хозяйстве, в морских и речных портах, на складах, где требуется эффективная работа в ограниченном пространстве.
+				- }

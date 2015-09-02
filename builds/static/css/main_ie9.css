@@ -331,7 +331,7 @@ html, body {
   height: 100%;
   font-family: "PTSans-Regular"; }
 
-.wrapper, .about__wrapper, .advantages__wrapper, .catalog-content__wrapper, .clients__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
+.wrapper, .about__wrapper, .catalog-content__wrapper, .advantages__wrapper, .clients__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
   width: 1160px;
   margin: auto; }
 
@@ -418,58 +418,6 @@ ul {
     font-size: 1.125em;
     line-height: 1em; }
 
-.advantages {
-  position: relative;
-  top: -90px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 283px;
-  margin-bottom: -90px;
-  padding-top: 90px;
-  background: url(../images/general/advantages-bg.png) no-repeat center center; }
-  .advantages__wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .advantages__title {
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center; }
-  .advantages__item {
-    position: relative;
-    box-sizing: border-box;
-    width: 290px;
-    padding-top: 20px;
-    padding-left: 90px;
-    color: #fff;
-    font-family: "PTSans-Bold";
-    font-size: 1.125em;
-    line-height: 0.88889em; }
-    .advantages__item:before {
-      top: 0;
-      left: 0;
-      background-image: url(../images/png-sprite/96dpi/sprite.png);
-      background-position: -205px -283px;
-      width: 77px;
-      height: 77px;
-      background-size: 444px, 375px;
-      background-repeat: no-repeat;
-      position: absolute;
-      display: block;
-      content: ""; }
-
 .catalog-content {
   padding-bottom: 220px; }
   .catalog-content__wrapper {
@@ -528,6 +476,58 @@ ul {
     font-size: 0.875em; }
     .catalog-content-item-drop__item:hover {
       background: #eee; }
+
+.advantages {
+  position: relative;
+  top: -90px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 283px;
+  margin-bottom: -90px;
+  padding-top: 90px;
+  background: url(../images/general/advantages-bg.png) no-repeat center center; }
+  .advantages__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .advantages__title {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center; }
+  .advantages__item {
+    position: relative;
+    box-sizing: border-box;
+    width: 290px;
+    padding-top: 20px;
+    padding-left: 90px;
+    color: #fff;
+    font-family: "PTSans-Bold";
+    font-size: 1.125em;
+    line-height: 0.88889em; }
+    .advantages__item:before {
+      top: 0;
+      left: 0;
+      background-image: url(../images/png-sprite/96dpi/sprite.png);
+      background-position: -205px -283px;
+      width: 77px;
+      height: 77px;
+      background-size: 444px, 375px;
+      background-repeat: no-repeat;
+      position: absolute;
+      display: block;
+      content: ""; }
 
 .clients {
   padding-top: 10px; }
@@ -774,11 +774,12 @@ ul {
 .modal {
   position: fixed;
   z-index: 99;
-  top: -999px;
+  top: 0;
   right: 0;
   left: 0;
+  display: none;
   visibility: hidden;
-  width: 450px;
+  margin: auto;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 0;
@@ -787,7 +788,8 @@ ul {
   -webkit-transition: all .4s ease-in-out;
           transition: all .4s ease-in-out; }
   .modal.active {
-    top: 22%;
+    top: 10% !important;
+    display: block;
     visibility: visible;
     opacity: 1; }
   .modal__close {
@@ -810,6 +812,7 @@ ul {
   top: 0;
   left: 0;
   visibility: hidden;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   opacity: 0;

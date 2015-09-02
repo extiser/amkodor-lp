@@ -1,0 +1,15 @@
+.inside-page-content {
+	padding-bottom: 180px;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	h1 {
+		@extend .title-inside;
+	}
+	p {
+		@extend .paragraph;
+	}
+	a {
+		@extend .link;
+	}
+}

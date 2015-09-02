@@ -1,7 +1,11 @@
-mixin header()
-	header.header
+mixin header(data)
+	- if (data == undefined) data = '';
+	header.header(class="#{data}")
 		.header__wrapper
 			a(href="#" title="").logo
 			+top-menu()
 			.header__phone +7 717 299-92-35
+			- if (data == '') {
 			+request()
+			- }
+			

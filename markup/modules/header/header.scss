@@ -3,6 +3,12 @@
 	z-index: 1;
 
 	padding-top: 32px;
+	&.inside {
+		box-sizing: border-box;
+		height: 154px;
+
+		background: url(%=staticPrefixForCss=%general/header-bg.png) no-repeat center center;
+	}
 	&__wrapper {
 		position: relative;
 
@@ -26,8 +32,8 @@
 			top: 8px;
 			right: 0;
 
-			@include bg($phone-pic);
 			@include content;
+			@include bg($phone-pic);
 		}
 	}
 }

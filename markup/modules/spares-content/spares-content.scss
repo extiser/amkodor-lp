@@ -7,35 +7,61 @@
 	&__title {
 		@extend .title-inside;
 	}
-	h2 {
+	p {
+		@extend .paragraph;
+	}
+}
+
+.spares-content-links {
+	position: relative;
+
+	width: 544px;
+	height: 327px;
+	margin: 15px auto;
+
+	background: url(%=staticPrefixForCss=%general/spares.jpg) no-repeat center center;
+	&__item {
+		position: absolute;
+
+		padding: 11px 15px;
+
+		text-decoration: none;
 		text-transform: uppercase;
 
-		color: #000;
-
-		font-family: "PTSans-Bold";
-		font-size: em(16px);
-		font-weight: normal;
-	}
-	p {
-		color: #000;
+		color: #fff;
+		background-color: rgba(0,0,0,.7);
 
 		font-size: em(16px);
-	}
-	img {
-		display: block;
-
-		margin: 15px auto;
-	}
-	ul {
-		@include nl;
-		li {
-			color: #818181;
-
-			font-family: "PTSans-Italic";
-			font-size: em(14px);
-			&:before {
-				content: " - ";
-			}
+		&:hover {
+			background: rgba(0,0,0,.7) url(%=staticPrefixForCss=%general/spares-link-hover.png) repeat;
+		}
+		&--loading-equipment {
+			top: 117px;
+			left: -7px;
+		}
+		&--gmp {
+			top: 166px;
+			left: 261px;
+		}
+		&--rom {
+			top: 166px;
+			left: 326px;
+		}
+		&--engine {
+			top: 133px;
+			left: 397px;
+		}
+		&--hydraulics {
+			top: 215px;
+			left: 261px;
+		}
+		&--filter {
+			top: 179px;
+			right: -3px;
+		}
+		&--cardan-shaft {
+			right: -3px;
+			bottom: 21px;
 		}
 	}
 }

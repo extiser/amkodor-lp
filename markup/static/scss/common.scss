@@ -69,3 +69,41 @@ body {
 	font-size: em(30px);
 	font-weight: normal;
 }
+
+h2 {
+	text-transform: uppercase;
+
+	color: #000;
+
+	font-family: "PTSans-Bold";
+	font-size: em(16px);
+	font-weight: normal;
+}
+
+.paragraph {
+	color: #000;
+
+	font-size: em(16px);
+}
+
+ul {
+	@include nl;
+	li {
+		color: #818181;
+
+		font-family: "PTSans-Italic";
+		font-size: em(14px);
+		&:before {
+			content: " - ";
+		}
+	}
+}
+
+.link {
+	color: $blue;
+
+	font-size: em(16px);
+	&:hover {
+		text-decoration: none;
+	}
+}

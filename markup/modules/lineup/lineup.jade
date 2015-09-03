@@ -1,10 +1,47 @@
-mixin lineup()
+mixin lineup(data)
 	section.lineup
 		.lineup__wrapper
+			- if(data == undefined) {
 			.lineup__title
 				span Каталог техники
-
-			- for(var i = 1; i < 10; i++) {
-			a(href="#" title="").lineup__item
-				img(src="%=staticPrefix=%images/content/model-#{i}.png" alt="")
 			- }
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-1.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link Погрузчики универсальные
+				a(href="#" title="").lineup-item__modiffer БЫСТРОСМЕННЫЕ РАБОЧИЕ ОРГАНЫ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-2.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link ПОГРУЗЧИКИ ФРОНТАЛЬНЫЕ ОДНОКОВШОВЫЕ
+				a(href="#" title="").lineup-item__modiffer СМЕННЫЕ РАБОЧИЕ ОРГАНЫ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-3.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link ЭКСКАВАТОРЫ-ПОГРУЗЧИКИ НА СОБСТВЕННОМ ШАССИ
+				a(href="#" title="").lineup-item__modiffer СМЕННЫЕ РАБОЧИЕ ОРГАНЫ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-4.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link Экскаваторы на собственном шасси
+				a(href="#" title="").lineup-item__modiffer СМЕННЫЕ РАБОЧИЕ ОРГАНЫ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-5.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link МАШИНЫ НА БАЗЕ ТРАКТОРОВ МТЗ
+				a(href="#" title="").lineup-item__modiffer СМЕННЫЕ РАБОЧИЕ ОРГАНЫ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-6.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link ВИЛОЧНЫЕ ПОГРУЗЧИКИ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-7.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link Катки дорожные
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-8.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link ТЕХНИКА СНЕГООЧИСТИТЕЛЬНАЯ
+
+			.lineup-item
+				img(src="%=staticPrefix=%images/content/model-9.jpg" alt="").lineup-item__img
+				a(href="#" title="").lineup-item__link ЗЕРНООЧИСТИТЕЛЬНЫЕ КОМПЛЕКСЫ

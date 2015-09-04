@@ -331,18 +331,18 @@ html, body {
   height: 100%;
   font-family: "PTSans-Regular"; }
 
-.wrapper, .advantages__wrapper, .about__wrapper, .cart-content__wrapper, .catalog-content__wrapper, .clients__wrapper, .contact-content__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .product-list-content__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
+.wrapper, .about__wrapper, .advantages__wrapper, .cart-content__wrapper, .catalog-content__wrapper, .catalog-table-content__wrapper, .clients__wrapper, .contact-content__wrapper, .delivery-map__wrapper, .footer__wrapper, .header__wrapper, .how__wrapper, .inside-page-content__wrapper, .lineup__wrapper, .product-list-content__wrapper, .request-now__wrapper, .services__wrapper, .spare-part-content__wrapper, .spares-content__wrapper, .video__wrapper {
   width: 1160px;
   margin: auto; }
 
-.title, .advantages__title span, .about__title span, .clients__title span, .delivery-map__title span, .how__title span, .lineup__title span, .video__title span {
+.title, .about__title span, .advantages__title span, .clients__title span, .delivery-map__title span, .how__title span, .lineup__title span, .video__title span {
   position: relative;
   display: inline;
   text-align: center;
   text-transform: uppercase;
   font-family: "PTSans-Bold";
   font-size: 1.875em; }
-  .title:before, .advantages__title span:before, .about__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before, .title:after, .advantages__title span:after, .about__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
+  .title:before, .about__title span:before, .advantages__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before, .title:after, .about__title span:after, .advantages__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
     top: 20px;
     display: block;
     width: 85px;
@@ -350,20 +350,20 @@ html, body {
     position: absolute;
     display: block;
     content: ""; }
-  .title:before, .advantages__title span:before, .about__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before {
+  .title:before, .about__title span:before, .advantages__title span:before, .clients__title span:before, .delivery-map__title span:before, .how__title span:before, .lineup__title span:before, .video__title span:before {
     left: -97px; }
-  .title:after, .advantages__title span:after, .about__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
+  .title:after, .about__title span:after, .advantages__title span:after, .clients__title span:after, .delivery-map__title span:after, .how__title span:after, .lineup__title span:after, .video__title span:after {
     right: -97px; }
-  .title--white, .advantages__title span, .about__title span, .how__title span {
+  .title--white, .about__title span, .advantages__title span, .how__title span {
     color: #fff; }
-    .title--white:before, .advantages__title span:before, .about__title span:before, .how__title span:before, .title--white:after, .advantages__title span:after, .about__title span:after, .how__title span:after {
+    .title--white:before, .about__title span:before, .advantages__title span:before, .how__title span:before, .title--white:after, .about__title span:after, .advantages__title span:after, .how__title span:after {
       background: #fff; }
   .title--black, .clients__title span, .delivery-map__title span, .lineup__title span, .video__title span {
     color: #000; }
     .title--black:before, .clients__title span:before, .delivery-map__title span:before, .lineup__title span:before, .video__title span:before, .title--black:after, .clients__title span:after, .delivery-map__title span:after, .lineup__title span:after, .video__title span:after {
       background: #000; }
 
-.title-inside, .cart-content h1, .cart-content h2, .catalog-content__title, .contact-content__title, .inside-page-content h1, .product-list-content h1, .spare-part-content__title, .spares-content__title {
+.title-inside, .cart-content h1, .cart-content h2, .catalog-content__title, .catalog-table-content h1, .contact-content__title, .inside-page-content h1, .product-list-content h1, .spare-part-content__title, .spares-content__title {
   width: 100%;
   text-transform: uppercase;
   color: #01407f;
@@ -445,6 +445,22 @@ table {
       table tbody tr td a:hover {
         background: #dedede; }
 
+.about {
+  box-sizing: border-box;
+  min-height: 370px;
+  padding-top: 25px;
+  background: url(../images/general/about-bg.jpg) no-repeat center center; }
+  .about__title {
+    width: 100%;
+    text-align: center; }
+  .about__content {
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    font-family: "PTSans-Italic";
+    font-size: 1.125em;
+    line-height: 1em; }
+
 .advantages {
   position: relative;
   top: -90px;
@@ -496,22 +512,6 @@ table {
       position: absolute;
       display: block;
       content: ""; }
-
-.about {
-  box-sizing: border-box;
-  min-height: 370px;
-  padding-top: 25px;
-  background: url(../images/general/about-bg.jpg) no-repeat center center; }
-  .about__title {
-    width: 100%;
-    text-align: center; }
-  .about__content {
-    padding-top: 12px;
-    text-align: center;
-    color: #fff;
-    font-family: "PTSans-Italic";
-    font-size: 1.125em;
-    line-height: 1em; }
 
 .cart-content p {
   text-align: justify;
@@ -576,45 +576,49 @@ table {
         -ms-flex-pack: justify;
             justify-content: space-between; }
 
-.catalog-content-item {
-  position: relative;
-  width: 30%;
-  text-align: center; }
-  .catalog-content-item__img {
-    display: block;
-    margin: 0 auto 15px; }
-  .catalog-content-item__link {
-    text-transform: uppercase;
-    color: #01407f;
-    font-family: "PTSans-Bold"; }
-    .catalog-content-item__link:hover {
-      text-decoration: none;
-      color: #9e9e9e; }
-  .catalog-content-item__hover {
-    position: relative;
-    padding-bottom: 20px; }
-    .catalog-content-item__hover:hover .catalog-content-item-drop {
-      display: block; }
-
-.catalog-content-item-drop {
-  position: absolute;
-  right: 0;
-  left: 0;
-  display: none;
-  width: 250px;
-  margin: 20px auto 0;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0 2px 4px #cdcdcd; }
-  .catalog-content-item-drop__item {
-    display: block;
-    padding: 15px;
+.catalog-tabs__item {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 2px 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #fff;
+  background: #f8b227;
+  font-family: "PTSans-Bold";
+  font-size: 1em; }
+  .catalog-tabs__item:hover, .catalog-tabs__item.active {
+    cursor: pointer;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #999;
+    background: #01407f; }
+
+.catalog-tabs-content .catalog-tabs-content-box {
+  display: none; }
+  .catalog-tabs-content .catalog-tabs-content-box.active {
+    display: block; }
+.catalog-tabs-content__img {
+  display: inline-block;
+  width: 15%;
+  padding-top: 25px;
+  text-align: center;
+  vertical-align: top; }
+.catalog-tabs-content__wrapper {
+  margin-top: 20px; }
+.catalog-tabs-content__table {
+  display: inline-block;
+  width: 84%;
+  padding-bottom: 50px;
+  vertical-align: top; }
+  .catalog-tabs-content__table table th, .catalog-tabs-content__table table td {
+    padding: 8px 0;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
     font-size: 0.875em; }
-    .catalog-content-item-drop__item:hover {
-      background: #eee; }
+  .catalog-tabs-content__table table th {
+    font-family: "PTSans-Bold"; }
+  .catalog-tabs-content__table table td {
+    padding-left: 15px; }
+  .catalog-tabs-content__table table tfoot td {
+    padding-left: 0; }
 
 .clients {
   padding-top: 10px; }
@@ -1339,6 +1343,47 @@ table {
     font-size: 1em; }
     .top-menu__item:hover {
       text-decoration: underline; }
+
+.catalog-content-item {
+  position: relative;
+  width: 30%;
+  text-align: center; }
+  .catalog-content-item__img {
+    display: block;
+    margin: 0 auto 15px; }
+  .catalog-content-item__link {
+    text-transform: uppercase;
+    color: #01407f;
+    font-family: "PTSans-Bold"; }
+    .catalog-content-item__link:hover {
+      text-decoration: none;
+      color: #9e9e9e; }
+  .catalog-content-item__hover {
+    position: relative;
+    padding-bottom: 20px; }
+    .catalog-content-item__hover:hover .catalog-content-item-drop {
+      display: block; }
+
+.catalog-content-item-drop {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  display: none;
+  width: 250px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px #cdcdcd; }
+  .catalog-content-item-drop__item {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 0.875em; }
+    .catalog-content-item-drop__item:hover {
+      background: #eee; }
 
 .video {
   margin-top: -40px;

@@ -5,15 +5,19 @@
 		[
 			[
 				"margin",
-				"margin-left"
-			],
-			[
-				"marign",
 				"margin-bottom"
 			],
 			[
 				"te",
-				"text-align"
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marign",
+				"margin"
 			],
 			[
 				"marg",
@@ -42,10 +46,6 @@
 			[
 				"caa",
 				"catalog-content-item"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"cata",
@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/modules/top-menu/top-menu.jade",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,18 +601,22 @@
 	[
 		"/Users/extiser/git/amkodor-lp/markup",
 		"/Users/extiser/git/amkodor-lp/markup/modules",
-		"/Users/extiser/git/amkodor-lp/markup/modules/footer",
+		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content",
+		"/Users/extiser/git/amkodor-lp/markup/modules/lineup",
+		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu",
 		"/Users/extiser/git/amkodor-lp/markup/pages",
 		"/Users/extiser/git/amkodor-lp/markup/static",
 		"/Users/extiser/git/amkodor-lp/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content/catalog-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.jade",
 		"/Users/extiser/git/amkodor-lp/markup/static/scss/common.scss",
 		"/Users/extiser/git/amkodor-lp/markup/pages/cart.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/cart-content/cart-content.jade",
@@ -628,7 +640,6 @@
 		"/Users/extiser/git/amkodor-lp/markup/pages/catalog-noslide.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spares-noslide.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part-noslide.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content/catalog-content.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/catalog-content/catalog-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.scss",
@@ -652,7 +663,6 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/lineup/lineup.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.scss",
@@ -1019,8 +1029,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/modules/top-menu/top-menu.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

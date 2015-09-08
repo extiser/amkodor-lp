@@ -13,13 +13,13 @@
 		text-align: center;
 		text-decoration: none;
 
-		color: #000;
-
 		font-family: "PTSans-Bold";
 		font-size: em(20px);
-		span {
+		a {
+			text-decoration: none;
 			text-transform: uppercase;
 
+			color: #000;
 			border-bottom: 1px solid #bebebe;
 		}
 		&:before {

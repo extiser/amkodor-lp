@@ -10,14 +10,20 @@
 		@extend .paragraph;
 		@include blocks-justify;
 	}
+	img {
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
 	table {
-		font-size: em(18px);
+		font-size: em(18px, 16px) !important;
 		tr {
 			th {
 				text-align: center;
 			}
 			td {
 				text-align: center;
+
+				font-size: em(16px, 16px) !important;
 			}
 		}
 	}

@@ -5,7 +5,11 @@
 		[
 			[
 				"marign",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin"
 			],
 			[
 				"magi",
@@ -14,10 +18,6 @@
 			[
 				"te",
 				"text-decoration"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"fon",
@@ -593,14 +593,18 @@
 	[
 		"/Users/extiser/git/amkodor-lp/markup",
 		"/Users/extiser/git/amkodor-lp/markup/modules",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now",
 		"/Users/extiser/git/amkodor-lp/markup/pages",
 		"/Users/extiser/git/amkodor-lp/markup/static",
 		"/Users/extiser/git/amkodor-lp/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/spares.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part.jade",
+		"/Users/extiser/git/amkodor-lp/markup/modules/cart-content/cart-content.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/product-list-content/product-list-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.jade",
@@ -625,10 +629,8 @@
 		"/Users/extiser/git/amkodor-lp/markup/static/scss/common.scss",
 		"/Users/extiser/git/amkodor-lp/markup/pages/cart.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/cart-content/cart-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/cart-content/cart-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/pages/product-list.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/product-list-content/product-list-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/product-list-content/product-list-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.jade",
@@ -638,15 +640,12 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/inside-page.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/pages/catalog-noslide.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spares-noslide.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part-noslide.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/spare-part.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.js",
 		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
@@ -727,8 +726,7 @@
 		"/Users/extiser/git/amkodor/markup/modules/!include/include.jade",
 		"/Users/extiser/git/amkodor/markup/static/scss/vars.scss",
 		"/Users/extiser/git/amkodor/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/amkodor/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/vrachmedic/markup/modules/comments/comments.scss"
+		"/Users/extiser/git/amkodor/markup/static/scss/fonts.scss"
 	],
 	"find":
 	{

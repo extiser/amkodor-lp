@@ -1,3 +1,12 @@
+.ie9 {
+	.request {
+		&__title {
+			text-indent: -9999px;
+			@include bg($request-title-ie);
+		}
+	}
+}
+
 .request {
 	position: absolute;
 	top: 200px;

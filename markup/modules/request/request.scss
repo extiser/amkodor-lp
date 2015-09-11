@@ -29,6 +29,11 @@
 		font-family: "PTSans-Bold";
 		font-size: em(30px);
 		line-height: 1;
+
+		@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+			text-indent: -9999px;
+			@include bg($request-title-ie);
+		}
 	}
 	&__description {
 		margin-bottom: 18px;

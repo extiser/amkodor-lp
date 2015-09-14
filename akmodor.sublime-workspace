@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "markup/modules/request/request.scss",
+			"file": "markup/pages/index.jade",
 			"settings":
 			{
-				"buffer_size": 1680,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/modules/request-now/request-now.scss",
-			"settings":
-			{
-				"buffer_size": 471,
+				"buffer_size": 552,
 				"line_ending": "Unix"
 			}
 		}
@@ -609,15 +601,14 @@
 	[
 		"/Users/extiser/git/amkodor-lp/markup",
 		"/Users/extiser/git/amkodor-lp/markup/modules",
-		"/Users/extiser/git/amkodor-lp/markup/modules/head/data",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now",
 		"/Users/extiser/git/amkodor-lp/markup/pages",
 		"/Users/extiser/git/amkodor-lp/markup/static",
 		"/Users/extiser/git/amkodor-lp/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/spares.jade",
@@ -625,7 +616,6 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/cart-content/cart-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/product-list-content/product-list-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/traktor-content/traktor-content.scss",
@@ -672,7 +662,6 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.jade",
@@ -1037,62 +1026,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/modules/request/request.scss",
-					"semi_transient": false,
+					"file": "markup/pages/index.jade",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1680,
+						"buffer_size": 552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/modules/request-now/request-now.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,

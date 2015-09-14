@@ -2,6 +2,7 @@
 	.request-now {
 		&__title {
 			text-indent: -9999px;
+
 			@include bg($request-title-2-ie);
 		}
 	}
@@ -27,9 +28,11 @@
 		font-size: em(34px) !important;
 
 		@extend .request__title;
-
 		@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+			padding: 0 !important;
+
 			text-indent: -9999px;
+
 			@include bg($request-title-2-ie);
 		}
 	}

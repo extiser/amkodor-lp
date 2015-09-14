@@ -2,6 +2,7 @@
 	.request {
 		&__title {
 			text-indent: -9999px;
+
 			@include bg($request-title-ie);
 		}
 	}
@@ -23,15 +24,15 @@
 		color: transparent;
 		border-bottom: 1px solid #fff;
 		background: linear-gradient(#fff, #dadada);
-		background-clip: text;
 		-webkit-background-clip: text;
+		        background-clip: text;
 
 		font-family: "PTSans-Bold";
 		font-size: em(30px);
 		line-height: 1;
-
 		@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 			text-indent: -9999px;
+
 			@include bg($request-title-ie);
 		}
 	}
